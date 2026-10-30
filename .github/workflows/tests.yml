@@ -2,7 +2,7 @@ name: Build & Test
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "codex/validate-flatmap-checkpoint"]
   pull_request:
     branches: ["main"]
   workflow_dispatch: # Allows manual triggering of the workflow
